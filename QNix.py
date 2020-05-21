@@ -45,7 +45,7 @@ async def changeprefix(ctx, prefix):
 @commands.command(aliases=['link'])
 async def invite(ctx):
     invite_link = '[INVITE URL]'
-    
+
     await ctx.send(invite_link)
 
 #SAVE/UPLOAD
