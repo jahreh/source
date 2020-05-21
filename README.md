@@ -1,7 +1,7 @@
 # source
 Since I am unable to use Wikis, this will provide sources for the different projects (for the time being)
 
-This will only provide the codes used on the differnt discord projects I run such as:
+This will only provide the codes used on the different discord projects I run such as:
 1. QNix.py
 2. Lisa.js
 
