@@ -1,5 +1,6 @@
 #IMPORTS
 import discord
+import json
 from discord.ext import commands
 
 
@@ -76,3 +77,10 @@ async def open(ctx, index):
     embed.set_image(url=contents[str(index)])
 
     await ctx.send(embed=embed)
+
+"""
+IMPORTANT NOTE:
+    1. A JSON File must be made:
+        i. Prefix JSON File
+        ii. Images JSON File
+"""
