@@ -1,4 +1,6 @@
 #IMPORTS
+import discord
+from discord.ext import commands
 
 
 #PREFIX
@@ -42,14 +44,14 @@ async def changeprefix(ctx, prefix):
     await ctx.send(f'Prefix: **``{prefix}``**')
 
 #INVITE
-@commands.command(aliases=['link'])
+@client.command(aliases=['link'])
 async def invite(ctx):
     invite_link = '[INVITE URL]'
 
     await ctx.send(invite_link)
 
 #SAVE/UPLOAD
-@commands.command(aliases=['upl'])
+@client.command(aliases=['upl'])
 async def save(ctx, index, *, content):
     with open('./path/to/images.json', 'r') as p:
         contents = json.load(p)
@@ -65,7 +67,7 @@ async def save(ctx, index, *, content):
     await ctx.send(f"Done {emoji}")
 
 #OPEN
-@commands.command(aliases=['opn'])
+@client.command(aliases=['opn'])
 async def open(ctx, index):
     with open('./path/to/images.json', 'r') as p:
         contents = json.load(p)
