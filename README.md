@@ -1,5 +1,5 @@
 # source
-Since I am unable to use Wikis, this will provide sources for the different projects (for the time being)
+Since I am unable to use Wikis, this will provide sources for the different projects (for the time being).
 This is not a complete for the projects. 
 
 For a complete documentation for:
